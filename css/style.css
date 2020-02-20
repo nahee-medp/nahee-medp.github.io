@@ -1,6 +1,18 @@
-body{
+.main_container{
+	height: 100vh;
 	background-image: url('../media/chain.png');
 	background-size: cover;
+}
+.about_container{
+	font-family: 'Bad Script', cursive;
+  	font-size: 24px;
+  	width:40%;
+  	margin: 0px auto;
+}
+.profile_img{
+	width:10%;
+	position:fixed;
+	margin: 0px auto;
 }
 .title{
 	position: absolute;
