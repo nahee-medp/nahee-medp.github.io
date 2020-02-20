@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Bad+Script|Krona+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Spectral&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="about_container">
+	<div class="intro">
+	
+	<p>
+		Nahee Kim is an artist and a web developer exploring programmability of human sexual behavior. She writes code poems, builds websites, draws illustrations and makes videos regarding body images bound up with sexuality, power dynamics and communication protocols in sexual relationship and experimental approaches to human reproduction. 
+She studies and teaches at Hunter College, studied at School for Poetic Computation, is a member of Soft Surplus which is collective workspace in Brooklyn and was a member of Eobchae. She is based in New York and Seoul.
+</p>
+
+	</div>
+	<img src="../media/ovum_me.png" class="profile_img">
+	<img src="../media/ovum_me.png" class="profile_img">
+	<img src="../media/ovum_me.png" class="profile_img">
+	<img src="../media/ovum_me.png" class="profile_img">
+	<img src="../media/ovum_me.png" class="profile_img">
+	
+</div>
+<div class="title">
+		About
+	</div>
+<script type="text/javascript">
+	var x = document.getElementsByClassName("profile_img");
+	var lengthOfX = x.length;
+
+	for (var i = 0; i <lengthOfX; i++) {
+		var randX = Math.random() * window.innerWidth;
+		var randY = Math.random() * window.innerHeight;
+		var deg = Math.random() * 360;
+		x[i].style.transform = "translate("+randX+"px,"+randY+"px) rotate("+deg+"deg)";
+	}
+</script>
+
+</body>
+</html>
