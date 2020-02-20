@@ -1,5 +1,6 @@
-.container{
-
+body{
+	background-image: url('../media/chain.png');
+	background-size: cover;
 }
 .title{
 	position: absolute;
@@ -14,7 +15,6 @@
 	color:transparent;
 	-webkit-text-stroke-width: 1px;
 	-webkit-text-stroke-color: black;
-
 }
 .menu{
 	margin:24px;
@@ -35,11 +35,21 @@
   	font-size: 28px;
 }
 #menu_home:hover{
-	color:skyblue;
+	color:#0000ff;
 }
 #menu_about:hover{
-	color:skyblue;
+	color:#0000ff;
 }
 #menu_works:hover{
-	color:skyblue;
+	color:#0000ff;
+}
+a:link{
+	color:black;
+	text-decoration: none;
+}
+a:hover{
+	color:#0000ff;
+}
+a:visited{
+	color:inherit;
 }
